@@ -152,15 +152,70 @@
 }
 
 @layer utilities {
-  .reveal {
+  /* ── Reveal variants ──
+     Use data-reveal="up|left|right|scale|blur|flip" or the .reveal class.
+     The .is-visible class is toggled by useScrollReveal. */
+
+  .reveal,
+  [data-reveal='up'],
+  [data-reveal='left'],
+  [data-reveal='right'],
+  [data-reveal='scale'],
+  [data-reveal='blur'],
+  [data-reveal='flip'] {
     opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out, filter 0.7s ease-out;
+    will-change: opacity, transform;
   }
 
-  .reveal.is-visible {
+  .reveal,
+  [data-reveal='up'] {
+    transform: translateY(28px);
+  }
+
+  [data-reveal='left'] {
+    transform: translateX(-40px);
+  }
+
+  [data-reveal='right'] {
+    transform: translateX(40px);
+  }
+
+  [data-reveal='scale'] {
+    transform: scale(0.9);
+  }
+
+  [data-reveal='blur'] {
+    transform: translateY(16px);
+    filter: blur(8px);
+  }
+
+  [data-reveal='flip'] {
+    transform: perspective(800px) rotateX(-12deg) translateY(20px);
+  }
+
+  /* Visible state */
+  .reveal.is-visible,
+  [data-reveal='up'].is-visible,
+  [data-reveal='left'].is-visible,
+  [data-reveal='right'].is-visible,
+  [data-reveal='scale'].is-visible,
+  [data-reveal='blur'].is-visible,
+  [data-reveal='flip'].is-visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(0, 0) scale(1) perspective(800px) rotateX(0deg);
+    filter: blur(0);
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    [data-reveal] {
+      opacity: 1 !important;
+      transform: none !important;
+      filter: none !important;
+      transition: none !important;
+    }
   }
 
   .text-gradient {

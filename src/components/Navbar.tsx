@@ -47,7 +47,7 @@ export function Navbar({ theme, onToggleTheme }: NavbarProps) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 animate-fade-up ${
         scrolled
           ? 'border-b border-slate-300 bg-slate-200/80 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-950/80'
           : 'border-b border-transparent'

@@ -11,6 +11,24 @@ const cardAccents = [
     iconBorder: 'group-hover:border-sky-500/50',
     chipBase: 'border-slate-300 bg-sky-50 text-sky-700 dark:border-slate-800 dark:bg-slate-800/60 dark:text-slate-300',
     chipHover: 'hover:border-sky-500/40 hover:bg-sky-100 hover:text-sky-700 dark:hover:border-sky-500/40 dark:hover:bg-sky-500/10 dark:hover:text-sky-300',
+  ring: 'group-hover:shadow-[0_0_30px_-5px_rgba(14,165,233,0.4)] dark:group-hover:shadow-[0_0_30px_-5px_rgba(16,185,129,0.3)]',
+  glow: 'from-sky-500/15',
+  glowDark: 'dark:from-accent-500/10',
+  dot: 'bg-sky-500 dark:bg-sky-400',
+  iconAnim: 'group-hover:animate-wiggle',
+  chipPop: 'hover:animate-pop-in',
+  chipRise: 'group-hover:translate-y-[-2px]',
+  chipScale: 'group-hover:scale-105',
+  chipShadow: 'group-hover:shadow-md',
+    chipBorder: 'group-hover:border-sky-500/50',
+    chipText: 'group-hover:text-sky-700',
+    chipBg: 'group-hover:bg-sky-100',
+    chipDarkBorder: 'dark:group-hover:border-sky-500/40',
+    chipDarkText: 'dark:group-hover:text-sky-300',
+    chipDarkBg: 'dark:group-hover:bg-sky-500/10',
+    chipTransition: 'transition-all duration-300',
+    chipTransform: 'group-hover:scale-105',
+    chipTranslate: 'group-hover:translate-y-[-2px]',
   },
   {
     bar: 'from-cyan-500 to-sky-400',
@@ -18,6 +36,24 @@ const cardAccents = [
     iconBorder: 'group-hover:border-cyan-500/50',
     chipBase: 'border-slate-300 bg-cyan-50 text-cyan-700 dark:border-slate-800 dark:bg-slate-800/60 dark:text-slate-300',
     chipHover: 'hover:border-cyan-500/40 hover:bg-cyan-100 hover:text-cyan-700 dark:hover:border-cyan-500/40 dark:hover:bg-cyan-500/10 dark:hover:text-cyan-300',
+    ring: 'group-hover:shadow-[0_0_30px_-5px_rgba(6,182,212,0.4)] dark:group-hover:shadow-[0_0_30px_-5px_rgba(6,182,212,0.3)]',
+    glow: 'from-cyan-500/15',
+    glowDark: 'dark:from-cyan-glow/10',
+    dot: 'bg-cyan-500 dark:bg-cyan-400',
+    iconAnim: 'group-hover:animate-wiggle',
+    chipPop: 'hover:animate-pop-in',
+    chipRise: 'group-hover:translate-y-[-2px]',
+    chipScale: 'group-hover:scale-105',
+    chipShadow: 'group-hover:shadow-md',
+    chipBorder: 'group-hover:border-cyan-500/50',
+    chipText: 'group-hover:text-cyan-700',
+    chipBg: 'group-hover:bg-cyan-100',
+    chipDarkBorder: 'dark:group-hover:border-cyan-500/40',
+    chipDarkText: 'dark:group-hover:text-cyan-300',
+    chipDarkBg: 'dark:group-hover:bg-cyan-500/10',
+    chipTransition: 'transition-all duration-300',
+    chipTransform: 'group-hover:scale-105',
+    chipTranslate: 'group-hover:translate-y-[-2px]',
   },
   {
     bar: 'from-blue-500 to-sky-400',
@@ -25,6 +61,24 @@ const cardAccents = [
     iconBorder: 'group-hover:border-blue-500/50',
     chipBase: 'border-slate-300 bg-blue-50 text-blue-700 dark:border-slate-800 dark:bg-slate-800/60 dark:text-slate-300',
     chipHover: 'hover:border-blue-500/40 hover:bg-blue-100 hover:text-blue-700 dark:hover:border-blue-500/40 dark:hover:bg-blue-500/10 dark:hover:text-blue-300',
+    ring: 'group-hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.4)] dark:group-hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.3)]',
+    glow: 'from-blue-500/15',
+    glowDark: 'dark:from-blue-500/10',
+    dot: 'bg-blue-500 dark:bg-blue-400',
+    iconAnim: 'group-hover:animate-wiggle',
+    chipPop: 'hover:animate-pop-in',
+    chipRise: 'group-hover:translate-y-[-2px]',
+    chipScale: 'group-hover:scale-105',
+    chipShadow: 'group-hover:shadow-md',
+    chipBorder: 'group-hover:border-blue-500/50',
+    chipText: 'group-hover:text-blue-700',
+    chipBg: 'group-hover:bg-blue-100',
+    chipDarkBorder: 'dark:group-hover:border-blue-500/40',
+    chipDarkText: 'dark:group-hover:text-blue-300',
+    chipDarkBg: 'dark:group-hover:bg-blue-500/10',
+    chipTransition: 'transition-all duration-300',
+    chipTransform: 'group-hover:scale-105',
+    chipTranslate: 'group-hover:translate-y-[-2px]',
   },
   {
     bar: 'from-indigo-400 to-sky-500',
@@ -32,6 +86,24 @@ const cardAccents = [
     iconBorder: 'group-hover:border-indigo-500/50',
     chipBase: 'border-slate-300 bg-indigo-50 text-indigo-700 dark:border-slate-800 dark:bg-slate-800/60 dark:text-slate-300',
     chipHover: 'hover:border-indigo-500/40 hover:bg-indigo-100 hover:text-indigo-700 dark:hover:border-indigo-500/40 dark:hover:bg-indigo-500/10 dark:hover:text-indigo-300',
+    ring: 'group-hover:shadow-[0_0_30px_-5px_rgba(99,102,241,0.4)] dark:group-hover:shadow-[0_0_30px_-5px_rgba(99,102,241,0.3)]',
+    glow: 'from-indigo-500/15',
+    glowDark: 'dark:from-indigo-500/10',
+    dot: 'bg-indigo-500 dark:bg-indigo-400',
+    iconAnim: 'group-hover:animate-wiggle',
+    chipPop: 'hover:animate-pop-in',
+    chipRise: 'group-hover:translate-y-[-2px]',
+    chipScale: 'group-hover:scale-105',
+    chipShadow: 'group-hover:shadow-md',
+    chipBorder: 'group-hover:border-indigo-500/50',
+    chipText: 'group-hover:text-indigo-700',
+    chipBg: 'group-hover:bg-indigo-100',
+    chipDarkBorder: 'dark:group-hover:border-indigo-500/40',
+    chipDarkText: 'dark:group-hover:text-indigo-300',
+    chipDarkBg: 'dark:group-hover:bg-indigo-500/10',
+    chipTransition: 'transition-all duration-300',
+    chipTransform: 'group-hover:scale-105',
+    chipTranslate: 'group-hover:translate-y-[-2px]',
   },
 ];
 
@@ -44,15 +116,15 @@ export function Skills() {
       description="From responsive front-end interfaces to interpretable machine learning pipelines — here's what I work with day to day."
     >
       {/* Top tech stack marquee */}
-      <div className="reveal marquee-mask mb-16 overflow-hidden">
+      <div className="reveal marquee-mask mb-16 overflow-hidden" data-reveal="blur">
         <div className="marquee-track gap-4">
           {marqueeItems.map((tech, i) => (
             <div
               key={`${tech.name}-${i}`}
-              className="group flex flex-shrink-0 items-center gap-3 rounded-xl border border-slate-300 bg-slate-50 px-4 py-2.5 transition-all duration-300 hover:-translate-y-0.5 hover:border-sky-500/40 hover:shadow-md dark:border-slate-800 dark:bg-slate-900/40 dark:hover:border-accent-500/40 dark:hover:bg-slate-900/60"
+              className="group flex flex-shrink-0 items-center gap-3 rounded-xl border border-slate-300 bg-slate-50 px-4 py-2.5 transition-all duration-300 hover:-translate-y-1 hover:border-sky-500/40 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900/40 dark:hover:border-accent-500/40 dark:hover:bg-slate-900/60"
             >
               <span
-                className={`flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br ${tech.gradient} font-mono text-sm font-bold text-white shadow-sm transition-transform duration-300 group-hover:scale-110`}
+                className={`flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br ${tech.gradient} font-mono text-sm font-bold text-white shadow-sm transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6`}
               >
                 {tech.glyph}
               </span>
@@ -65,14 +137,15 @@ export function Skills() {
       </div>
 
       {/* Skill category cards */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4" data-reveal-stagger>
         {skillCategories.map((cat, i) => {
           const Icon: LucideIcon = cat.icon;
           const accent = cardAccents[i % cardAccents.length];
           return (
             <div
               key={cat.title}
-              className="reveal group relative flex min-h-[300px] flex-col overflow-hidden rounded-2xl border border-slate-300 bg-slate-50 p-6 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl dark:border-slate-800/70 dark:bg-slate-900/40 dark:shadow-none dark:hover:shadow-2xl"
+              className="reveal group relative flex min-h-[300px] flex-col overflow-hidden rounded-2xl border border-slate-300 bg-slate-50 p-6 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border-slate-800/70 dark:bg-slate-900/40 dark:shadow-none dark:hover:shadow-2xl"
+              data-reveal="flip"
               data-reveal-delay={String(i * 100)}
             >
               {/* Top accent bar */}
@@ -81,9 +154,12 @@ export function Skills() {
               {/* Shimmer sweep on hover */}
               <div className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-sky-500/[0.05] to-transparent transition-transform duration-1000 group-hover:translate-x-full dark:via-white/[0.05]" />
 
+              {/* Glow blob */}
+              <div className={`pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-gradient-to-br ${accent.glow} ${accent.glowDark} opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100`} />
+
               {/* Icon container */}
               <div className={`relative mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-300 ${accent.iconBg} transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 ${accent.iconBorder} dark:border-slate-800`}>
-                <Icon className="h-7 w-7" strokeWidth={1.75} />
+                <Icon className={`h-7 w-7 ${accent.iconAnim}`} strokeWidth={1.75} />
               </div>
 
               {/* Title + arrow */}
@@ -99,10 +175,11 @@ export function Skills() {
 
               {/* Skill chips */}
               <div className="mt-auto flex flex-wrap gap-2">
-                {cat.skills.map((skill) => (
+                {cat.skills.map((skill, si) => (
                   <span
                     key={skill}
-                    className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium transition-all duration-200 hover:scale-105 ${accent.chipBase} ${accent.chipHover}`}
+                    className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 ${accent.chipBase} ${accent.chipHover}`}
+                    style={{ transitionDelay: `${si * 40}ms` }}
                   >
                     {skill}
                   </span>

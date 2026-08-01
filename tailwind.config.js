@@ -86,6 +86,40 @@ export default {
           '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
           '50%': { transform: 'translate(30px, 50px) scale(0.9)' },
         },
+        'wiggle': {
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(-6deg)' },
+          '75%': { transform: 'rotate(6deg)' },
+        },
+        'draw-line': {
+          '0%': { transform: 'scaleY(0)' },
+          '100%': { transform: 'scaleY(1)' },
+        },
+        'gradient-flow': {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+        'breathe': {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.03)' },
+        },
+        'slide-in-left': {
+          '0%': { opacity: '0', transform: 'translateX(-40px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        'slide-in-right': {
+          '0%': { opacity: '0', transform: 'translateX(40px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        'pop-in': {
+          '0%': { opacity: '0', transform: 'scale(0.85)' },
+          '60%': { opacity: '1', transform: 'scale(1.03)' },
+          '100%': { transform: 'scale(1)' },
+        },
+        'flip-in': {
+          '0%': { opacity: '0', transform: 'perspective(800px) rotateX(-12deg) translateY(20px)' },
+          '100%': { opacity: '1', transform: 'perspective(800px) rotateX(0deg) translateY(0)' },
+        },
       },
       animation: {
         'fade-up': 'fade-up 0.7s ease-out both',
@@ -98,6 +132,14 @@ export default {
         'drift-1': 'drift-1 18s ease-in-out infinite',
         'drift-2': 'drift-2 22s ease-in-out infinite',
         'drift-3': 'drift-3 26s ease-in-out infinite',
+        'wiggle': 'wiggle 0.5s ease-in-out',
+        'draw-line': 'draw-line 0.8s ease-out both',
+        'gradient-flow': 'gradient-flow 4s ease infinite',
+        'breathe': 'breathe 4s ease-in-out infinite',
+        'slide-in-left': 'slide-in-left 0.7s ease-out both',
+        'slide-in-right': 'slide-in-right 0.7s ease-out both',
+        'pop-in': 'pop-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both',
+        'flip-in': 'flip-in 0.7s ease-out both',
       },
     },
   },
